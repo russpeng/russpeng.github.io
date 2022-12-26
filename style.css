@@ -82,3 +82,25 @@ body{
     line-height: 625px;
     z-index: 1;
 }
+
+#workflexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#firstworkflexcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 50%;
+    flex-grow: 1;
+}
+
+#secondworkflexcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 50%;
+    flex-grow: 1;
+}
