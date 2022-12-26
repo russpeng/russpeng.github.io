@@ -1,0 +1,84 @@
+body{
+    background-color: #001E1A;
+    font-family: 'Bai Jamjuree';
+}
+
+.insideSquare{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 488px;
+    width: 788px;
+    background-color: #36847A;
+    border-radius: 100px;
+    border: none;
+}
+
+.insideSquare:hover{
+    background-color: black;
+}
+
+.middleText {
+    font-size: 100px;
+    line-height: 160px;
+    opacity: 50%;
+}
+
+#middle2{
+    opacity: 70%;
+}
+
+.homepagemeanu{
+    display: flex;
+    font-size: 64px;
+    line-height: 80px;
+    color:#FFFFFF;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #001E1A;
+    align-items: center;
+    border:none;
+    text-decoration: none;
+
+}
+
+.homepagemeanu:hover{
+    background-color: #FFFFFF;
+    color: #001E1A;
+}
+
+/*.resumee{
+    position: absolute;
+    width: 236px;
+    height: 80px;
+    left: 63px;
+    top: -20px;
+    
+}
+*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.nav {
+    margin: 2% 0;
+}
+
+#P{
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 500px;
+    line-height: 625px;
+    z-index: 2;
+}
+
+#R{
+    color: black;
+    position: absolute;
+    font-size: 500px;
+    line-height: 625px;
+    z-index: 1;
+}
