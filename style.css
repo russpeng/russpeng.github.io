@@ -127,6 +127,7 @@ body{
 #squarecontainer{
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
 }
 #portfolioSquare{
     display: flex;
@@ -137,8 +138,76 @@ body{
     height: 60px;
     border-radius: 20px;
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 1%;
+}
+
+#fineArtContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-grow: 1;
+    padding-right: 10%;
+}
+
+#fineArt{
+    align-self: center;
+    font-size: 50px;
+    line-height: 100px;
+    color: white;
+}
+
+#fineArtNavBar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+    align-self: center;
+    width: 27%;
+    height: 50px;
+    background-color:#36847A;
+    border-radius: 20px;
+    justify-content: space-between;
+
+}
+
+#homeNav{
+    align-self: center;
+    font-size: 30px;
+    line-height: 160px;
+    color:#001E1A;
+    z-index: 2;
+    padding-left: 3%;
+}
+
+#homeNav:hover{
+    color: #FFFFFF;
+
+}
+
+#workNav{
+    align-self: center;
+    font-size: 30px;
+    line-height: 160px;
+    color:#001E1A;
+    z-index: 2;
+}
+
+#workNav:hover {
+    color: #FFFFFF;
+}
+
+#bioNav{
+    align-self: center;
+    font-size: 30px;
+    line-height: 160px;
+    color:#001E1A;
+    z-index: 2;
+    padding-right: 3%;
+
+}
+
+#bioNav:hover {
+    color: #FFFFFF;
 }
 
 #lineInMiddle{
